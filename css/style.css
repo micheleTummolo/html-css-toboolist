@@ -24,13 +24,13 @@ header img{
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(240, 240, 240);
 }
 
 main{
     background-color: white;
     width: 910px;
-    height: 450px;
+    height: 620px;
     margin: 50px auto;
     border-radius: 8px;
 }
@@ -64,4 +64,33 @@ main{
 hr{
     margin-top: 10px;
     border: solid 2px rgb(224, 224, 224);
+}
+
+#list{
+    width: 800px;
+    margin: 0px auto;
+}
+
+#list section{
+    margin-top: 40px;
+}
+
+#list h2{
+    font-weight: bold;
+}
+
+#list li{
+    font-size: 17px;
+    list-style-type: none;
+    margin-left: 40px;
+    line-height: 3;
+}
+
+.done::before{
+    content: '\2714';
+    color: lightgreen;
+    margin-right: 20px;
+    padding: 3px 6px;
+    border: solid 3px lightgreen;
+    border-radius: 50%;
 }
