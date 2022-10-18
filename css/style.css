@@ -30,7 +30,7 @@ body{
 main{
     background-color: white;
     width: 910px;
-    height: 620px;
+    height: 860px;
     margin: 50px auto;
     border-radius: 8px;
 }
@@ -77,20 +77,30 @@ hr{
 
 #list h2{
     font-weight: bold;
+    font-size: 27px;
 }
 
 #list li{
-    font-size: 17px;
+    font-size: 21px;
     list-style-type: none;
-    margin-left: 40px;
+    margin-left: 10px;
     line-height: 3;
 }
 
 .done::before{
     content: '\2714';
     color: lightgreen;
-    margin-right: 20px;
-    padding: 3px 6px;
+    margin-right: 10px;
+    padding: 3px 7px;
     border: solid 3px lightgreen;
+    border-radius: 50%;
+}
+
+.todo::before{
+    content: '\2718';
+    color: red;
+    margin-right: 10px;
+    padding: 3px 7px;
+    border: solid 3px red;
     border-radius: 50%;
 }
