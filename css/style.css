@@ -23,5 +23,45 @@ header img{
 }
 
 body{
-    background-color: rgb(168, 168, 168);
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(224, 224, 224);
+}
+
+main{
+    background-color: white;
+    width: 910px;
+    height: 450px;
+    margin: 50px auto;
+    border-radius: 8px;
+}
+
+#toolbar{
+    width: 800px;
+    margin: 0px auto;
+}
+
+.button{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 8px 11px;
+    border: 0px;
+    border-radius: 4px;
+}
+#pressed{
+    background-color: #00cdfe;
+    color: white;
+}
+
+#unpressed{
+    padding: 7px 10px;
+    background-color: white;
+    color: grey;
+    border: solid 1px grey;
+}
+
+hr{
+    margin-top: 10px;
+    border: solid 2px rgb(224, 224, 224);
 }
