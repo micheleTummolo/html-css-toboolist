@@ -104,3 +104,69 @@ hr{
     border: solid 3px red;
     border-radius: 50%;
 }
+
+.editorial_tag::after{
+    content: "Editorial";
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    margin-left: 13px;
+    background-color: #00cdfe;
+    padding: 8px 10px;
+    border-radius: 15px;
+}
+
+.q1goals_tag::after{
+    content: "Q1 Goals";
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    margin-left: 13px;
+    background-color: rgb(137, 48, 162);
+    padding: 8px 10px;
+    border-radius: 15px;
+}
+
+.recruiting_tag::after{
+    content: "Recruiting";
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    margin-left: 13px;
+    background-color: green;
+    padding: 8px 10px;
+    border-radius: 15px;
+}
+
+.mobile_tag::after{
+    content: "Mobile";
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    margin-left: 13px;
+    background-color: orange;
+    padding: 8px 10px;
+    border-radius: 15px;
+}
+
+.website_tag::after{
+    content: "Website";
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    margin-left: 13px;
+    background-color: palevioletred;
+    padding: 8px 10px;
+    border-radius: 15px;
+}
+
+.sales_tag::after{
+    content: "Sales";
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    margin-left: 13px;
+    background-color: lightgreen;
+    padding: 8px 10px;
+    border-radius: 15px;
+}
